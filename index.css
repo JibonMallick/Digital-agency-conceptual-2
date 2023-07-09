@@ -55,6 +55,8 @@
 .description{
     color: white;
     padding: 15px;
+    width: 50%;
+    margin: auto;
 }
 .big-title{
     font-size: 50px;
@@ -63,4 +65,77 @@
 .sp-1{
     color: red;
     font-size: 110px;
+}
+.service-list{
+    height: 100vh;
+    background-image: url(/asset/image/footer-bg.png),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.service-list-1{
+    padding: 30px;
+    width: 50%;
+    color: white;
+}
+.servicelist-para{
+    margin-top: 15px;
+}
+.service-title{
+    margin-top: 15px;
+}
+.list{
+    margin-top: 25px;
+}
+.photo-div{
+    display: flex;
+    padding: 15px;
+    gap: 30px;
+}
+.photo{
+    border-right: 1px solid red;
+    padding: 3px;
+    padding: 2px;
+    margin: 2px;
+}
+.service-list{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 30px;
+    align-items: center;
+}
+.author-image{
+    height: 80px;
+    width: 80px;
+    border-radius: 35px;
+
+}
+.author-name{
+    color: white;
+    font-size: small;
+}
+.author-position{
+    color: white;
+    font-size: 20 px;
+}
+
+
+.box1{
+    height: 180px;
+    width: 150px;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.icon-image{
+    height: 100px;
+    width: 100px;
+}
+.all-box{
+    display: flex;
+    gap: 5px;
 }
